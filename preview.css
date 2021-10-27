@@ -1,0 +1,130 @@
+body {
+    margin: 5px;
+    background-color: #1D252E;
+    opacity: 1;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.backg {
+    display: flex;
+    width: 65%;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #242C34;
+    border: 2px solid #4C5159;
+    border-radius: 0.4rem;
+    padding : 0px;
+    margin-bottom: 20px;
+}
+
+.light-text {
+    margin: 4px;
+    font-family: 'Space Grotesk', sans-serif;
+    color: #A1A3A8;
+    font-size: 18px;
+}
+
+.white-text {
+    color: #FFFFFF;
+    margin: 2px;
+    size: 20px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 18px;
+    display: inline;
+    height: auto;
+}
+
+#htag {
+    margin-block-start: 0em;
+    margin-block-end: 0.83em;
+    font-family: 'Space Grotesk', sans-serif;
+    color: white;
+}
+
+
+.content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.columntext {
+    height: 5vh;
+    border: none;
+    width: 95%;
+    margin: 10px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+}
+
+.hl {
+    border-top: 2px solid #4C5159;
+    opacity: 85%;
+    height: auto;
+}
+
+.spc-text {
+    color: #F1B924;
+    margin: 2px;
+    size: 25px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 24px;
+    display: inline;
+    height: auto;
+
+}
+
+button {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    border: none;
+    width: 25%;
+    min-width: 20%;
+    height: 45px;
+    background-color: #0053ED;
+    border-radius: 1.4rem;
+    color: white;
+    font-family: 'Space Grotesk', sans-serif;
+    max-width: 20%;
+}
+
+.connect {
+    text-decoration: none;
+    color: white;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .bg {
+        width: 95%;
+    }
+
+    .backg {
+        width: 85%;
+    }
+    .light-text {
+    font-size: 14px;
+    }
+
+    .white-text {
+    font-size: 14px;
+    }
+
+    button {
+    max-width: 40%;
+    }
+}

@@ -1,0 +1,204 @@
+body {
+    margin: 0px;
+    background-color: #1D252E;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.bg {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    
+}
+
+.lg-block {
+    background-image: url('images/Untitled-8.svg');
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#logo {
+    margin-top: 80px;
+    width: 30%;
+    height: auto;
+}
+
+
+form {
+    margin: 40px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset {
+    margin: 20px;
+    padding:0px;
+    border: 2px solid grey;
+    border-radius: 0.3rem;
+    width: 60%;
+}
+
+legend {
+    font-family: 'Space Grotesk', sans-serif;
+    color:grey;
+    padding: 3px;
+}
+
+#mail {
+    margin: 5px;
+}
+
+input {
+    font-family: 'Space Grotesk', sans-serif;
+    border:white;
+    outline: white;
+    width: 100%;
+    background-color: transparent;
+    border-radius: 0.2rem;
+}
+
+.min-logo {
+    display: flex;
+    padding: 5px;
+}
+
+#eye {
+    padding-left: 5px;
+    width: 15px;
+    height: 15px;
+}
+
+#close {
+    padding-left: 5px;
+    padding-top: 2px;
+    width: 10px;
+    height: 10px;
+}
+
+input:valid {
+    background-color: transparent;
+}
+
+button {
+    margin: 10px;
+    border: none;
+    width: 26%;
+    height: 45px;
+    background-color: #0053ED;
+    border-radius: 1.4rem;
+    color: white;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+input, select, textarea{
+    color: white;
+}
+
+textarea:focus, input:focus {
+    font-family: 'Space Grotesk', sans-serif;
+    color: white;
+}
+
+a {
+    font-family: 'Space Grotesk', sans-serif;
+    margin: 10px;
+    color: grey;
+}
+
+#connect {
+    text-decoration: none;
+    color: white;
+}
+
+
+@media only screen and (max-width: 1250px) {
+    .bg {
+        width: 72%;
+    }
+
+    form {
+        margin: 10px;
+    }
+
+    fieldset {
+        margin: 10px;
+        width: 50%
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .bg {
+        width: 80%;
+    }
+
+    form {
+        margin: 10px;
+    }
+
+    fieldset {
+        margin: 10px;
+        width: 60%
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .bg {
+        width: 100%;
+    }
+
+    form {
+        margin: 10px;
+    }
+
+    fieldset {
+        margin: 10px;
+        width: 70%
+    }
+
+    #close {
+        padding-left: 5px;
+        padding-top: 2px;
+        width: 8px;
+        height: 8px;
+    }
+
+    #eye {
+        padding-left: 5px;
+        width: 12px;
+        height: 12px;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .bg {
+        width: 100%;
+    }
+
+    form {
+        margin: 10px;
+    }
+
+    fieldset {
+        margin: 10px;
+        width: 80%
+    }
+
+    #close {
+        padding-left: 5px;
+        padding-top: 2px;
+        width: 8px;
+        height: 8px;
+    }
+
+    #eye {
+        padding-left: 5px;
+        width: 12px;
+        height: 12px;
+    }
+}

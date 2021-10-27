@@ -1,0 +1,301 @@
+body {
+    margin: 0px;
+    background-color: #1D252E;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.bg {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    
+}
+
+.main-logo {
+    margin: 30px;
+    display: flex;
+    justify-content: center;   
+}
+
+#logo {
+    width: 35px;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin-block-start: none;
+    padding-inline-start: 0px;
+}
+
+.cards {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 10vh;
+    background-color: #242C34;
+    border: 2px solid #4C5159;
+    border-radius: 0.4rem;
+    padding : 10px;
+}
+
+.wall {
+    display: flex;
+}
+
+.img-block {
+    width: 20px;
+    height: 20px;
+    background-color: #1C242D;
+    border: 2px solid #4C5159;
+    border-radius: 1rem;
+    display: flex;
+    margin-right: 10px;
+}
+
+#wallet {
+    width:12px;
+    height: 12px;
+    padding-left: 4px;
+    padding-top: 4px;
+}
+
+#nxt {
+    width:8px;
+    height: 10px;
+    padding-left: 7px;
+    padding-top: 5px;
+}
+
+.title-font {
+    color: #FFFFFF;
+    margin: 2px;
+    size: 20px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 15px;
+    display: inline;
+    height: 5vh;
+}
+
+.light-font {
+    margin: 4px;
+    font-family: 'Space Mono', sans-serif;
+    color: #A1A3A8;
+    font-size: 10px;
+}
+
+.uppercent {
+    font-size: 15px;
+    font-family: 'Space Mono', sans-serif;
+    display: flex;
+    color: #00D390;
+    margin: 0px;
+}
+
+.downpercent {   
+    font-size: 15px;
+    font-family: 'Space Mono', sans-serif;
+    display: flex;
+    color: #FF6C99;
+    margin: 0px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    height:5vh
+}
+
+.corner {
+    margin: 5px;
+    display: flex;
+    justify-content: end;
+    height: 5vh;
+}
+
+.updown {
+    margin-top: 2.5px;
+    width: 20px;
+    height: 20px;
+}
+
+.arrow {
+    margin-top: 8px;
+    width: 0; 
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid #707070;
+}
+
+
+.rightcor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 6px;
+}
+
+
+h2 {
+    color: #F1B924;
+    font-family: 'Space Mono', monospace;
+    margin-block-start: none;
+    margin-block-end: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.cardchange {
+    height: 5vh;
+    border: none;
+    width: 95%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fullbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;  
+}
+
+.details {
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+hr {
+    margin: 0px;
+    opacity: 70%;
+}
+
+.big-light-font {
+    margin: 0px;
+    font-family: 'Space Mono', sans-serif;
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-block-start: 0.2em;
+    margin-block-end: 0em;
+}
+
+.helper-font {
+    margin-left: 3px;
+    font-family: 'Space Mono', sans-serif;
+    color: #A1A3A8;
+    font-size: 10px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.texts {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.hl {
+    border-top: 2px solid #4C5159;
+    opacity: 85%;
+    height: auto;
+}
+
+.vl {
+    border-left: 2px solid #4C5159;
+    margin-top: 5px;
+    opacity: 85%;
+    height: auto;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    background-color: #242C34;
+    border: 2px solid #4C5159;
+    border-radius: 0.4rem;
+    height: 10vh;
+    padding : 10px;
+}
+
+.img-block {
+    width: 20px;
+    height: 20px;
+    background-color: #1C242D;
+    border: 2px solid #4C5159;
+    border-radius: 1rem;
+    display: flex;
+    margin-right: 3px;
+}
+
+@media screen and (max-width: 450px) {
+    .main-logo {
+        margin: 20px;
+    }
+    
+    .bg {
+        width: 90%;
+    }
+
+    .details {
+        height: 5vh;
+    }
+    .big-light-font {
+        font-size: 10px;
+    }
+
+    .helper-font {
+        font-size: 8px;
+    }
+
+    .light-font {
+        font-size: 10px;
+    }
+
+    .title-font {
+        font-size: 12px;
+    }
+
+    .img-block {
+        width: 15px;
+        height: 15px;
+    }
+
+    .updown {
+        margin-top: 3px ;
+        width: 15px;
+        height: 15px;
+    }
+
+    .uppercent,.downpercent {
+        font-size: 12px;
+    }
+
+    #wallet {
+        width: 8px;
+        height: 8px;
+    }
+    
+    #nxt {
+        width: 6px;
+        height: 8px;
+        padding-left: 5px;
+        padding-top: 4px;
+    }
+
+    .updown {
+        margin-top: -2px;
+    }
+    
+}
+
